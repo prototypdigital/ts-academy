@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "target": "ES2020"
+    },
+    "compileOnSave": true
+}
