@@ -6,7 +6,7 @@ interface Human {
 
 interface Dog {
   walk(): void;
-  run(): void;
+  run(): string;
 }
 
 type Mammal = Human | Dog;
@@ -18,3 +18,5 @@ const mammal: Mammal = {
 };
 
 mammal.drive();
+
+export {};

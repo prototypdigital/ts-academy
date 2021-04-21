@@ -22,3 +22,5 @@ theInterface.dateOfBirth = new Date();
 
 theInterface.walk()
 theInterface.run()
+
+export {};

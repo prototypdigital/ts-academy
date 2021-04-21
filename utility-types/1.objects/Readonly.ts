@@ -1,3 +1,15 @@
+interface Person {
+  firstName: string;
+  lastName: string;
+}
+
+interface PersonWithAddress extends Person {
+  address: {
+    addressOne: string;
+    addressTwo?: string;
+  };
+}
+
 const readonlyJane: Readonly<PersonWithAddress> = {
   firstName: 'Jane',
   isActive: false,
@@ -15,3 +27,5 @@ const readonlyPartialJane: Readonly<Partial<PersonWithAddress>> = {
 };
 
 readonlyJane.firstName = 'John';
+
+export {};

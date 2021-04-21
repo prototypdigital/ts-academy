@@ -50,3 +50,5 @@ function getDayMessage(day: Day) {
       return assertNever(day);
   }
 }
+
+export {};

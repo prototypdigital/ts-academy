@@ -6,4 +6,9 @@ let firstName = 'Jake';
 const age = 10;
 const isActive = true;
 
-firstName = 12;
+/**
+ * @example
+ */
+// firstName = 12;
+
+export {};

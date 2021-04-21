@@ -45,3 +45,5 @@ const updateError: AppError = {
     message: 'jpalfbaiokjlfs',
   },
 };
+
+export {};

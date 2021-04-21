@@ -2,4 +2,6 @@ function blackHole(message: string) {
   console.log(message);
 }
 
-blackHole('di si voide');
+blackHole('say hello to the void');
+
+export {};

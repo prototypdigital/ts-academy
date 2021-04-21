@@ -103,3 +103,5 @@ function moveWithType(direction: DirectionAsType, pixels: number) {
 
 moveWithType('Up', 14);
 moveWithType(Direction.Up, 14);
+
+export {};

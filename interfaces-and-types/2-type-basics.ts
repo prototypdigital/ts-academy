@@ -16,8 +16,4 @@ type CarAsType = {
  */
 type RetailCarAsType = CarAsType & { sold: boolean };
 
-/**
- * Literal types
- */
-type UsedCar = `Used: ${CarType}`;
-const usedSedan: UsedCar = 'Used: crossover';
+export {};

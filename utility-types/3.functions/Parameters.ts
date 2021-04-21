@@ -9,3 +9,5 @@ type ExtractPropsFn = (
 
 type ExtractPropsFromFunction = Parameters<typeof extractProps>;
 type ExtractPropsFromType = Parameters<ExtractPropsFn>;
+
+export {};

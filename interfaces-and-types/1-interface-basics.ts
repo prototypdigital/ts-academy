@@ -13,6 +13,8 @@ interface RetailCar extends Car {
   sold: boolean;
 }
 
+// const car: RetailCar = {};
+
 /**
  * Declaration merging
  */
@@ -25,7 +27,7 @@ class Car {
   }
 }
 
-const carFromApi: Car = {
+const typedObject: Car = {
   id: 'jasamuuid',
   brand: 'mazda',
   model: '3',
@@ -33,4 +35,9 @@ const carFromApi: Car = {
   year: 2020,
 };
 
-const carToApi = new Car(carFromApi); //?
+const classObject = new Car(typedObject);
+
+console.log([typedObject]);
+console.log([classObject]);
+
+export {};

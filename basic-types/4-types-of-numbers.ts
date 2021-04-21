@@ -11,3 +11,5 @@ const big: bigint = 100n;
  * Big number delimiting
  */
 const delimitedNumber = 100_000_000;
+
+export {};

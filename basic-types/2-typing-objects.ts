@@ -1,11 +1,20 @@
 /**
- * @description Always create an interface for Objects
+ * @description Interface types (preferred in most cases)
  */
 interface Person {
   firstName: string;
   age: number;
   isActive: boolean;
 }
+
+/**
+ * @description Type types
+ */
+type PersonAsType = {
+  firstName: string;
+  age: number;
+  isActive: boolean;
+};
 
 /**
  * @description Interface assignment to an object. Assignment is explicit and enforces strictness.
@@ -32,3 +41,5 @@ const castedPerson = {
 
 castedPerson.role = 'Developer';
 person.age = 16;
+
+export {};

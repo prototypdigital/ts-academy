@@ -1,3 +1,8 @@
+interface Person {
+  firstName: string;
+  lastName: string;
+}
+
 interface PersonWithAddress extends Person {
   address: {
     addressOne: string;
@@ -7,8 +12,6 @@ interface PersonWithAddress extends Person {
 
 const john: PersonWithAddress = {
   firstName: 'John',
-  age: 18,
-  isActive: true,
   address: {
     addressOne: 'Nigdjezemska 18',
   },
@@ -16,5 +19,6 @@ const john: PersonWithAddress = {
 
 const jane: Partial<PersonWithAddress> = {
   firstName: 'Jane',
-  isActive: false,
 };
+
+export {};
