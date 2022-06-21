@@ -3,7 +3,6 @@ interface TheInterface {
   middleName: string | undefined; // Razlika između middleName?: string i ovoga?
   lastName: string;
   readonly dateOfBirth: Date;
-  run(): void;
   walk: () => void;
 }
 
@@ -12,7 +11,6 @@ const theInterface: TheInterface = {
   firstName: 'Anonimni',
   middleName: undefined,
   lastName: 'Anonimus',
-  run(),
   walk: () => {
     console.log('hodam');
   },
@@ -20,7 +18,6 @@ const theInterface: TheInterface = {
 
 theInterface.dateOfBirth = new Date();
 
-theInterface.walk()
-theInterface.run()
+theInterface.walk();
 
 export {};
