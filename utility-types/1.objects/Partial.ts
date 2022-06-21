@@ -12,6 +12,7 @@ interface PersonWithAddress extends Person {
 
 const john: PersonWithAddress = {
   firstName: 'John',
+  lastName: 'Doe',
   address: {
     addressOne: 'Nigdjezemska 18',
   },

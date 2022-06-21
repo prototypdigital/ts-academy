@@ -12,8 +12,7 @@ interface PersonWithAddress extends Person {
 
 const johnDoe: PersonWithAddress = {
   firstName: 'John',
-  age: 18,
-  isActive: true,
+  lastName: 'Doe',
   address: {
     addressOne: 'Nigdjezemska 18',
   },
@@ -21,8 +20,7 @@ const johnDoe: PersonWithAddress = {
 
 const janeDoe: Required<PersonWithAddress> = {
   firstName: 'Jane',
-  isActive: false,
-  age: 25,
+  lastName: 'Doe',
   address: {
     addressOne: 'Nigdjezemska 18',
   },

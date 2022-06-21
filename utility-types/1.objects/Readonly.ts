@@ -12,8 +12,7 @@ interface PersonWithAddress extends Person {
 
 const readonlyJane: Readonly<PersonWithAddress> = {
   firstName: 'Jane',
-  isActive: false,
-  age: 18,
+  lastName: 'Doe',
   address: {
     addressOne: 'Nigdjezemska 18',
   },
